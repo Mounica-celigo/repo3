@@ -11,7 +11,7 @@ for(var i=0;i<options.data.length;i++){
       		changeaddress.City = found[1]
       		changeaddress.State = found[2]
       		changeaddress.Country = found[3]
-          	changeaddress.Zipcode = found[4]
+          	changeaddress.Zipcode = found[6]
     	}
    	}
 }
