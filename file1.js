@@ -40,7 +40,8 @@ function preSavePageFunction (options) {
       }
 
     }
-    order.OrderAllocationItems = itemList;    
+    order.OrderAllocationItems = itemList;   
+    order.OrderAllocationItems1 = itemList1; 
   }
   
   return {
