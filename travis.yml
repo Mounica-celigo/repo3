@@ -9,3 +9,5 @@ script:
 
 install:
   - npm install
+notifications:
+  webhooks: https://api.staging.integrator.io/v1/exports/5e79bdae6c13922f1b8e64a9/data
